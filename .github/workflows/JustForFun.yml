@@ -24,7 +24,7 @@ jobs:
     #- name: send telegram 
       #run: curl "https://api.telegram.org/${{ secrets.BOTTOKEN }}/sendMessage?chat_id=${{ secrets.CHATID }}&text=欢迎关注公众号 Brick713的小黑屋"
     - name: send tiem
-      run: curl 'https://api.telegram.org/bot1237645519:AAG0BAUXgI-wIi67j1JrwF8xmbP3pAJIBDc/sendMessage?chat_id=-405990210&text={$nowtime}'
+      run: curl "https://api.telegram.org/${{ secrets.BOTTOKEN }}/sendMessage?chat_id=${{ secrets.CHATID }}&text=$nowtime"
       shell: bash 
       env:
-        nowtiome: date +%H
+        nowtime: date +%H
