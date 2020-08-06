@@ -27,4 +27,4 @@ jobs:
       run: curl "https://api.telegram.org/${{ secrets.BOTTOKEN }}/sendMessage?chat_id=${{ secrets.CHATID }}&text=$nowtime"
       shell: bash 
       env:
-        nowtime: date +%H
+        nowtime: `date +%H`
