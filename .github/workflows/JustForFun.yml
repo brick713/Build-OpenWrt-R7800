@@ -22,5 +22,5 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: send telegram 
-      run: curl https://api.telegram.org/${{ secrets.BOTTOKEN }}/sendMessage?chat_id=${{ secrets.CHATID }}&text=欢迎关注公众号 Brick713的小黑屋
+      run: curl "https://api.telegram.org/${{ secrets.BOTTOKEN }}/sendMessage?chat_id=${{ secrets.CHATID }}&text=欢迎关注公众号 Brick713的小黑屋"
 
