@@ -2,7 +2,7 @@
 
 This project is modified from [Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)，thank you very much for the work of P3TERX 🙏 。
 
-[中文说明](./README_EN.md)
+[中文说明](./README_CN.md)
 
 ## Build-OpenWrt-R7800
 
