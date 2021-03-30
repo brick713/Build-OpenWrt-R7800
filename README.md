@@ -12,7 +12,7 @@ Build OpenWrt using GitHub Actions For Nighthawk X4S R7800
 
 - SSR-PLUS （socket clietn）
 - OpenClash （Clash client）
-- sfe （Turbo ACC）
+- SFE （Turbo ACC）
 
 ## Usage
 
