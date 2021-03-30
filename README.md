@@ -1,8 +1,8 @@
-# Special statement
+# Special Statement
 
 This project is modified from [Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)，thank you very much for the work of P3TERX 🙏 。
 
-[中文](./README_EN.md)
+[中文说明](./README_EN.md)
 
 ## Build-OpenWrt-R7800
 
@@ -22,7 +22,7 @@ Build OpenWrt using GitHub Actions For Nighthawk X4S R7800
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 - Compilation will be executed at 18:00 every Friday，You can modify the `cron` parameter in the `config` file to customize.
 
-### Tips
+## Tips
 
 It may take a long time to create a `.config` file and build the OpenWrt firmware. You can use my profile `.config` Compile your own firmware after modifying it according to your needs
 
