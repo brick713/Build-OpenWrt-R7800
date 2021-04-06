@@ -25,6 +25,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
+  DIY_P1_SH: diy-part1.sh
+  DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: false
@@ -57,17 +59,6 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
-
-    - name: add helloworld custom
-      run: |
-        cd openwrt
-        echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default
-
-    - name: add clash
-      run: |
-        cd openwrt
-        echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> feeds.conf.default
-        echo "src-git small https://github.com/kenzok8/small" >> feeds.conf.default
         
     - name: Load custom feeds
       run: |
