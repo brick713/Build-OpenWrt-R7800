@@ -12,7 +12,7 @@
 
 - SSR-PLUS （socket clietn）
 - OpenClash （Clash client）
-- sfe （Turbo ACC网络加速）
+- SFE （Turbo ACC网络加速）
 
 ## 使用方法
 
