@@ -1,6 +1,5 @@
 #!/bin/bash
-#
-#
+
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
