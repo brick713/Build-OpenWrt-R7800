@@ -48,6 +48,10 @@ jobs:
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
 
+    - name: SSH connection to Actions
+      uses: P3TERX/ssh2actions@main
+      if: env.SSH_ACTIONS == 'true' 
+
     - name: Clone source code
       working-directory: /workdir
       run: |
@@ -75,10 +79,6 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
-
-    - name: SSH connection to Actions
-      uses: P3TERX/ssh2actions@main
-      if: env.SSH_ACTIONS == 'true' || contains(github.event.action, 'ssh')
 
     - name: Download package
       id: package
