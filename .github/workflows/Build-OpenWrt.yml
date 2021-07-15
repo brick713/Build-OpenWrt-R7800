@@ -9,8 +9,8 @@ name: Build-OpenWrt
 
 on:
   repository_dispatch:
-  schedule:
-    - cron:  '*/30 18 * * 5'
+#  schedule:
+#    - cron:  '*/30 18 * * 5'
   watch:
     types: started
 
