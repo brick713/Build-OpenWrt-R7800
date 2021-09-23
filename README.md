@@ -13,6 +13,7 @@ Build OpenWrt using GitHub Actions For Nighthawk X4S R7800
 - SSR-PLUS （Socket client）
 - OpenClash （Clash client）
 - SFE （Turbo ACC）
+- DDNSTO （FRP client）
 
 ## Usage
 
@@ -21,7 +22,7 @@ Build OpenWrt using GitHub Actions For Nighthawk X4S R7800
 - Push `.config` file to the GitHub repository, and click the `star` button, the build starts automatically.Progress can be viewed on the Actions page.
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 - This project is set to automatically proceed at 18:30 on the first day of each month,You can modify `cron` according to the situation, but weekends are not recommended here but build your own.
-- Compilation will be executed at 18:00 every Friday，You can modify the `cron` parameter in the `config` file to customize.
+- Compilation is executed at 18:30 on the first day of each month. You can modify the `cron` parameter in the `config` file for customization.
 
 ## Tips
 
