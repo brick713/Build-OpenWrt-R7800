@@ -10,9 +10,7 @@ Build OpenWrt using GitHub Actions For Nighthawk X4S R7800
 
 ## Include Plug-in List
 
-- SSR-PLUS （Socket client）
 - OpenClash （Clash client）
-- SFE （Turbo ACC）
 - DDNSTO （FRP client）
 
 ## Usage
